@@ -1505,6 +1505,77 @@ footer .credits a {
   margin-left: auto;
   margin-right: auto;
 }
+.counterbkg{
+  background-image: url('../img/counters-bg.jpg');
+}
+.row-coach{
+  margin-bottom: -50px;
+}
+.testimonio-bkg{
+  background-image: url('../img/pistaAtletismo.jpg')
+}
+.yellow-bkg{
+  background-color: #ffa900;
+}
+.fnt-brown{
+  font-weight: bold; color: #363636;
+}
+.card-adultos{
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  margin-left: 1px;
+}
+.icon1{
+  margin-top: 4px
+}
+.mle-1{
+  margin-left: 10px
+}
+.caerd-desc-e{
+  display: flex; 
+  align-items: center; 
+  justify-content: left; 
+  margin-left: 2px; 
+  margin-top: 5px
+}
+.caerd-desc-e-2{
+  display: flex; 
+  align-items: center; 
+  justify-content: left; 
+  margin-top: 5px
+}
+.label-ml{
+  margin-left: 12px
+}
+.caerd-desc-e-3{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 2px; 
+  margin-top: 10px;
+}
+.caerd-desc-e-4{
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  margin-left: 1px;
+}
+.caerd-desc-e-5{
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  margin-top: 5px;
+}
+.icon-ml2{
+  margin-left: -2px;
+}
+.label-ml2{
+  margin-left: 8.5px;
+}
+.contact-bkg{
+  background-image: url('../img/overlay-bg.jpg')
+}
 @media screen and (max-width: 991px) {
   .col-coachu{
     border-radius: 10px 10px 0px 0px;
