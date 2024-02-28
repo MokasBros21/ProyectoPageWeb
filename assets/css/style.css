@@ -889,6 +889,7 @@ a:hover {
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
+  border: 0.1px solid #363636;
 }
 
 .service-box:hover .ico-circle {
@@ -901,6 +902,10 @@ a:hover {
 .service-box .service-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
+}
+
+.service-box:hover .svg-my {
+  filter: invert(1); /* Color blanco al hacer hover */
 }
 
 .service-box .ico-circle {
@@ -1301,7 +1306,7 @@ a:hover {
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  float: right;
+  /*float: right;*/
 }
 
 /*--------------------------------------------------------------
