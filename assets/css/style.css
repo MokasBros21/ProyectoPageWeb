@@ -1260,6 +1260,7 @@ a:hover {
 
 .card-blog .card-body {
   position: relative;
+  min-height: 234px;
 }
 
 .card-blog .card-category-box {
@@ -1580,6 +1581,9 @@ footer .credits a {
 }
 .contact-bkg{
   background-image: url('../img/overlay-bg.jpg')
+}
+.service-box{
+  width: 100%;
 }
 @media screen and (max-width: 991px) {
   .col-coachu{
