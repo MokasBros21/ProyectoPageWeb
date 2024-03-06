@@ -1586,6 +1586,9 @@ footer .credits a {
 .service-box{
   width: 100%;
 }
+.work-content{
+  min-height: 127px;
+}
 @media screen and (max-width: 991px) {
   .col-coachu{
     border-radius: 10px 10px 0px 0px;
