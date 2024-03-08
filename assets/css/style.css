@@ -79,7 +79,9 @@ a:hover {
 .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
-
+.card-blog{
+  height: 100%;
+}
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
@@ -1255,7 +1257,7 @@ a:hover {
 --------------------------------------------------------------*/
 @media (min-width: 767px) {
   .card-blog {
-    margin-bottom: 3rem;
+    margin-top: 3rem;
   }
 }
 
@@ -1589,6 +1591,9 @@ footer .credits a {
 .work-content{
   min-height: 127px;
 }
+.contacto_media{
+  text-align: center;
+}
 @media screen and (max-width: 991px) {
   .col-coachu{
     border-radius: 10px 10px 0px 0px;
@@ -1603,5 +1608,10 @@ footer .credits a {
     margin-bottom: auto;
     margin-top: 0px;
     justify-content: start;
+  }
+}
+@media screen and (max-width: 767px) {
+  .title-a {
+    font-size: 2rem;
   }
 }
