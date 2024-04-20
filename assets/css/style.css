@@ -79,9 +79,9 @@ a:hover {
 .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
-.card-blog{
+/* .card-blog{
   height: 100%;
-}
+} */
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
@@ -989,6 +989,7 @@ a:hover {
 .work-content {
   border: 1px solid;
   padding: 1rem 5% 1rem 4%;
+  min-height: 160px;
 }
 
 .work-content .w-more {
@@ -1588,11 +1589,14 @@ footer .credits a {
 .service-box{
   width: 100%;
 }
-.work-content{
-  min-height: 127px;
-}
+
 .contacto_media{
   text-align: center;
+}
+@media screen and (max-width: 1199px) {
+  .work-content{
+    min-height: 169px;
+  }
 }
 @media screen and (max-width: 991px) {
   .col-coachu{
@@ -1610,8 +1614,17 @@ footer .credits a {
     justify-content: start;
   }
 }
+@media screen and (max-width: 979px) {
+  .work-content{
+    min-height: 217px;
+  }
+}
 @media screen and (max-width: 767px) {
   .title-a {
     font-size: 2rem;
+  }
+  .work-content{
+    min-height: auto;
+    padding-bottom: 35px;
   }
 }
